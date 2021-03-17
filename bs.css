@@ -1,0 +1,69 @@
+.header{
+position: absolute;;
+
+top:0;
+height:2cm;
+width:100%;
+background-color:navy;
+left:0;
+   }
+  
+.logo{
+    position: absolute;
+    margin-top:5cm;
+    left:1cm;
+    
+    /* height:5cm;
+    width: 5cm; */
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height:1cm;
+    width:100%;
+    background-color:navy;
+    left:0;
+}
+h1{ 
+    color:white;
+    text-align: center;
+}
+.menu{
+    position:absolute;
+    margin-top: 6cm;
+    right:0;
+    width:6cm;
+    height: auto;
+    color:white;
+    
+}
+.line{
+    position: absolute;
+    bottom:2cm;
+    left:16cm;
+    
+}
+
+ body{
+    background-image: url("qcash.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+#menu1, #menu2{
+    padding: 10px;
+    text-align: left;
+    background-color: navy;
+    border-radius: 10px;
+    margin:7px;
+}
+#menu1:hover,#menu2:hover{
+background-color: grey;
+cursor: pointer;
+}
+a{
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
